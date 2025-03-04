@@ -59,4 +59,8 @@ class Library {
     }
     return null;
   }
+
+  public boolean addBook(Book book) {
+    return this.books.add(book);
+  }
 }
